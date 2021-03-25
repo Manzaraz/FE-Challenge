@@ -1,0 +1,58 @@
+body {
+    $font-family-sans-serif: 'Barlow Semi Condensed', sans-serif;
+    $font-size-base:  11px;
+}
+
+$primary: hsl(263, 55%, 52%);
+$secondary: hsl(217, 19%, 35%);
+$success: hsl(219, 29%, 14%);
+$info: hsl(0, 0%, 100%);
+$white: hsl(0, 0%, 81%);
+$danger: hsl(210, 46%, 95%);
+.d-flex img {
+    width: 50px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.fondo-card {
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 10%;
+    background-size: 9%;
+
+}
+$container-max-widths: (
+  sm: 375px,
+  md: 720px,
+  lg: 1440px,
+  xl: 1440px,
+  xxl: 1440px,
+);
+@media (min-width: 992px) {
+    .alto-100 { 
+        height: 100vh;
+    }
+}
+
+// Moderate violet: hsl(263, 55%, 52%)
+// Very dark grayish blue: hsl(217, 19%, 35%)
+// Very dark blackish blue: hsl(219, 29%, 14%)
+// White: hsl(0, 0%, 100%)
+// Light gray: hsl(0, 0%, 81%)
+// Light grayish blue: hsl(210, 46%, 95%)
+
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
